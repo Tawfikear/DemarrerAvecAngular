@@ -1,0 +1,9 @@
+
+<img [src]="user.photo" alt="">
+<h1>Nom:{{user.name}}</h1>
+<h2>Prénom:{{user.firstName}}</h2>
+<p [hidden]="isagedisplayed">Age:{{user.age}}</p>
+<input type="text" [value]="user.quote">
+<button (click)="aficherMasquer()">Afficher et masquer mon Age</button>
+```
+
